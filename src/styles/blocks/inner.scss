@@ -1,0 +1,7 @@
+.inner {
+  margin: 0 auto;
+
+  @include desktop {
+    width: 1300px;
+  }
+}
