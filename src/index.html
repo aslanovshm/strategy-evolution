@@ -19,46 +19,48 @@
 
 <body>
   <header class="page-header">
-    <div class="inner page-header__inner">
-      <a class="logo" href="./">
-        <img src="assets/images/logo.png" width="340" height="70" alt="Логотип компании Стратегия Развития">
-      </a>
-      <div class="contact-item">
-        <p class="contact-item__label">Ваш регион</p>
-        <a href="#">Москва</a>
+    <div class="page-header__top">
+      <div class="inner page-header__inner">
+        <a class="logo" href="./">
+          <img src="assets/images/logo.png" width="340" height="70" alt="Логотип компании Стратегия Развития">
+        </a>
+        <div class="contact-item page-header__contact-item">
+          <p class="contact-item__label page-header__contact-label">Ваш регион</p>
+          <p class="contact-item__content page-header__contact-content"><a href="#">Москва</a></p>
+        </div>
+        <div class="contact-item page-header__contact-item">
+          <p class="contact-item__label page-header__contact-label">Телефон</p>
+          <p class="contact-item__content"><a href="tel:+79951234567">+7 (995) 123-45-67</a>
+            работаем с 9 до 18:00</p>
+        </div>
+        <button class="button">Заказать звонок</button>
       </div>
-      <div class="contact-item">
-        <p class="contact-item__label">Телефон</p>
-        <p class="contact-item__content"><a href="tel:+79951234567">+7 (995) 123-45-67</a>
-          работаем с 9 до 18:00</p>
-      </div>
-      <button class="btn">Заказать звонок</button>
     </div>
-    <div class="page-header__navigation">
+    <div class="page-header__bottom">
       <div class="inner">
         <nav class="page-navigation">
           <ul class="page-navigation__list">
             <li class="page-navigation__item">
-              <a href="#">Сертификаты ISO</a>
+              <a class="page-navigation__link" href="#">Сертификаты ISO</a>
             </li>
             <li class="page-navigation__item">
-              <a href="#">Сертификаты гост</a>
+              <a class="page-navigation__link" href="#">Сертификаты гост</a class="page-navigation__link">
             </li>
             <li class="page-navigation__item">
-              <a href="#">Реестр</a>
+              <a class="page-navigation__link" href="#">Реестр</a class="page-navigation__link">
             </li>
             <li class="page-navigation__item">
-              <a href="#">Контакты</a>
+              <a class="page-navigation__link" href="#">Контакты</a class="page-navigation__link">
             </li>
             <li class="page-navigation__item">
-              <a href="#">Кабинет</a>
+              <a class="page-navigation__link" href="#">Кабинет</a class="page-navigation__link">
             </li>
           </ul>
         </nav>
         <form class="site-search page-header__site-search" action="#">
-          <label class="site-search__label" for="siteSearch">Поиск по услугам</label>
+          <label class="visually-hidden" for="siteSearch">Поиск по услугам</label>
           <input id="siteSearch" class="site-search__field" type="text" placeholder="Поиск по услугам...">
-          <button class="site-search__btn"></button>
+          <button class="site-search__button"></button>
         </form>
       </div>
     </div>
@@ -71,7 +73,7 @@
         <p class="start-screen__subtitle">Хотите подробную консультацию от эксперта по сертификации ISO — оставьте
           заявку
         </p>
-        <button class="btn start-screen__btn">Заказать сертификат</button>
+        <button class="button start-screen__button">Заказать сертификат</button>
         <ul class="start-screen__advantages">
           <li>Оперативное оформление</li>
           <li>Гарантии получения</li>
@@ -93,35 +95,35 @@
         <ul class="services__list">
           <li class="service">
             <h3 class="service__name">Сертифкаты iso основные и отраслевые</h3>
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
           <li class="service">
             <h3 class="service__name">Сертификаты ГОСТ отраслевые</h3 class="service__name">
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
           <li class="service">
             <h3 class="service__name">Сертификаты ГОСТ оценка деловой репутации</h3 class="service__name">
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
           <li class="service">
             <h3 class="service__name">Сертификаты ГОСТ услуги населению</h3 class="service__name">
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
           <li class="service">
             <h3 class="service__name">Сертификаты ГОСТ услуги бытовые</h3 class="service__name">
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
           <li class="service">
             <h3 class="service__name">Сертификаты ГОСТ услуги торговли</h3 class="service__name">
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
           <li class="service">
             <h3 class="service__name">сертификаты ГОСТ услуги общепита</h3 class="service__name">
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
           <li class="service">
             <h3 class="service__name">сертификаты ГОСТ прочие услуги</h3 class="service__name">
-            <button class="service__more">Развернуть...</button>
+            <button class="button service__more">Развернуть...</button>
           </li>
         </ul>
       </ul>

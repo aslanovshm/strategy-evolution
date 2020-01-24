@@ -1,3 +1,4 @@
+// Globals
 @import "constants.scss";
 @import "mixins.scss";
 
@@ -6,6 +7,13 @@
 @import "visually-hidden.scss";
 @import "fonts.scss";
 
+// Components
+@import "blocks/button.scss";
+@import "blocks/site-search.scss";
+@import "blocks/contact-item.scss";
+
+// Sections
 @import "blocks/inner.scss";
 @import "blocks/page-header.scss";
+@import "blocks/page-navigation.scss";
 @import "blocks/page-footer.scss";

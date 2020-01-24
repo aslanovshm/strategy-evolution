@@ -90,6 +90,12 @@ img {
   border-style: none;
 }
 
+.button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 button,
 input,
 optgroup,
@@ -193,4 +199,8 @@ template {
 
 [hidden] {
   display: none;
+}
+
+address {
+  font-style: normal;
 }

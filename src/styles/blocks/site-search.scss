@@ -1,0 +1,26 @@
+.site-search {
+  position: relative;
+  display: inline-block;
+}
+
+.site-search__field {
+  box-sizing: border-box;
+  width: 200px;
+  height: 30px;
+  padding-left: 12px;
+  padding-right: 35px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid #ffffff;
+  background-color: transparent;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.site-search__button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
