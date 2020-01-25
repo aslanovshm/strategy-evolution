@@ -9,11 +9,26 @@
 
 // Components
 @import "blocks/button.scss";
+@import "blocks/heading.scss";
 @import "blocks/site-search.scss";
-@import "blocks/contact-item.scss";
+@import "blocks/contact.scss";
+@import "blocks/service.scss";
+@import "blocks/advantage.scss";
+@import "blocks/expert.scss";
+@import "blocks/contact-card.scss";
 
 // Sections
+@import "blocks/row.scss";
 @import "blocks/inner.scss";
 @import "blocks/page-header.scss";
 @import "blocks/page-navigation.scss";
+@import "blocks/start-screen.scss";
+@import "blocks/services.scss";
+@import "blocks/about-us.scss";
+@import "blocks/advantages.scss";
+@import "blocks/accreditation.scss";
+@import "blocks/experts.scss";
+@import "blocks/contacts.scss";
+@import "blocks/clients.scss";
+@import "blocks/feedback.scss";
 @import "blocks/page-footer.scss";

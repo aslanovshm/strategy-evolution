@@ -1,0 +1,37 @@
+.page-footer {
+  color: #ffffff;
+  background-color: $theme-color;
+}
+
+.page-footer__top {
+  padding: 63px 0 49px;
+}
+
+.page-footer__bottom {
+  border-top: 1px solid #ffffff;
+}
+
+.page-footer__contact-content a {
+  color: #ffffff;
+}
+
+.page-footer__bottom {
+  padding: 18px 0 13px;
+}
+
+.page-footer__copyright {
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.page-footer__bottom-links {
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+
+  & a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}

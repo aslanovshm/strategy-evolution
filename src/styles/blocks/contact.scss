@@ -1,4 +1,4 @@
-.contact-item__label {
+.contact__label {
   margin: 0;
   font-size: 12px;
   line-height: 14px;
@@ -6,12 +6,12 @@
   text-transform: uppercase;
 }
 
-.contact-item__content {
+.contact__content {
   margin: 0;
+  line-height: 23px;
 
   & a {
     font-size: 20px;
-    line-height: 23px;
     font-weight: 700;
     text-decoration: none;
     color: $theme-color;

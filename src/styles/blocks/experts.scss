@@ -1,0 +1,14 @@
+.experts {
+  padding: 60px 0;
+  background-color: $second-color;
+}
+
+.experts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experts__item:not(:last-child) {
+  margin-bottom: 30px;
+}
