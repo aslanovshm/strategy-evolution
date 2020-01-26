@@ -1,0 +1,30 @@
+.form__item {
+  width: 310px;
+  margin: 0 0 30px;
+
+  &--full-width {
+    width: 100%;
+  }
+}
+
+.form__label {
+  display: block;
+  margin-left: 10px;
+  font-weight: 500;
+  color: $theme-color;
+  text-transform: none;
+}
+
+.form__field {
+  box-sizing: border-box;
+  width: inherit;
+  padding: 16px 40px 16px 10px;
+  color: rgba(
+    $color: (
+      #4f4f4f
+    ),
+    $alpha: 0.75
+  );
+  border: 1px solid $theme-color;
+  background-color: #ffffff;
+}

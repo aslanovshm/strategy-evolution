@@ -16,4 +16,16 @@
   padding: 20px;
   background-color: transparent;
   border: 1px solid #ffffff;
+
+  &--white {
+    font-weight: 500;
+    color: $theme-color;
+    background-color: #ffffff;
+  }
+}
+
+.button__submit {
+  box-sizing: border-box;
+  width: 310px;
+  padding: 20px;
 }

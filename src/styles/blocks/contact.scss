@@ -1,3 +1,15 @@
+.contact {
+  position: relative;
+}
+
+.contact__wrap {
+  padding: 0 20px;
+}
+
+.contact__icon {
+  fill: $theme-color;
+}
+
 .contact__label {
   margin: 0;
   font-size: 12px;

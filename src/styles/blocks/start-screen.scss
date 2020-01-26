@@ -5,6 +5,9 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: $screen-color;
+  background-image: url("../images/buildings-tall-desktop@1x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .start-screen__title {
@@ -31,4 +34,19 @@
 
   font-size: 16px;
   line-height: 19px;
+}
+
+.start-screen__advantage-icon {
+  & svg {
+    fill: #ffffff;
+    vertical-align: middle;
+  }
+}
+
+.start-screen__form-label {
+  color: #ffffff;
+}
+
+.start-screen__form-field {
+  background-color: rgba(255, 255, 255, 0.5);
 }

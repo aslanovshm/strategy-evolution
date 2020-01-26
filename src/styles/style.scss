@@ -10,12 +10,15 @@
 // Components
 @import "blocks/button.scss";
 @import "blocks/heading.scss";
+@import "blocks/page-title.scss";
+@import "blocks/breadcrumbs.scss";
 @import "blocks/site-search.scss";
 @import "blocks/contact.scss";
 @import "blocks/service.scss";
 @import "blocks/advantage.scss";
 @import "blocks/expert.scss";
 @import "blocks/contact-card.scss";
+@import "blocks/form.scss";
 
 // Sections
 @import "blocks/row.scss";
@@ -29,6 +32,6 @@
 @import "blocks/accreditation.scss";
 @import "blocks/experts.scss";
 @import "blocks/contacts.scss";
-@import "blocks/clients.scss";
+@import "blocks/customers.scss";
 @import "blocks/feedback.scss";
 @import "blocks/page-footer.scss";

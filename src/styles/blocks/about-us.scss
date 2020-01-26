@@ -27,8 +27,17 @@
   }
 }
 
+.about-us__item-icon {
+  margin-bottom: 45px;
+  fill: $theme-color;
+
+  &--middle {
+    fill: #ffffff;
+  }
+}
+
 .about-us__item-title {
-  margin-bottom: 11px;
+  margin: 0 0 11px;
   font-size: 32px;
   line-height: 37px;
   font-weight: 500;
@@ -41,7 +50,7 @@
 }
 
 .about-us__item-description {
-  margin-bottom: 33px;
+  margin: 0 0 33px;
 }
 
 .about-us__button--middle {

@@ -6,7 +6,7 @@ const imagemin = require('gulp-imagemin')
 const jpegmin = require('imagemin-mozjpeg')
 const pngmin = require('imagemin-pngquant')
 const svgmin = require('imagemin-svgo')
-const convertToWebp = require('gulp-webp');
+const convertToWebp = require('gulp-webp')
 const svgSprite = require('gulp-svgstore')
 const jsmerge = require('gulp-concat')
 const jsmin = require('gulp-uglify-es').default
@@ -105,7 +105,7 @@ exports.stream = stream = (done) => {
     gulp.watch(src + '/scripts/*', gulp.series('scripts')).on('change', browserSync.reload),
     gulp.watch(src + '/fonts/*', gulp.series('fonts')).on('change', browserSync.reload),
     gulp.watch(src + '/images/*', gulp.series(['images', 'webp'])).on('change', browserSync.reload),
-    gulp.watch(src + '/images/sprite*', gulp.series('sprite')).on('change', browserSync.reload)
+    gulp.watch(src + '/images/sprite/*.svg', gulp.series('sprite')).on('change', browserSync.reload)
   done()
 }
 
